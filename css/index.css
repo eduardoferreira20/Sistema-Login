@@ -1,0 +1,52 @@
+
+body,html {
+ background-image: url('assets/f.jpeg');
+ height: 100%;
+ width: 100%;
+ font-family: helvetica;
+}
+.header{
+    text-align: center;
+    margin: 24px 0 12px 0;
+    padding-top: 30px;
+}
+
+img.logo {
+    width: 320px;
+}
+
+.box{
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 20px;
+}
+
+form {
+    width: 40%;
+    background-color: white;
+    margin-left: 30%;
+    margin-top: 10%;
+    opacity: 0.97;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    color: black;
+    display: inline-block;
+    border: 1px solid darkgray;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #35b9b2;
+    border-radius: 5px;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 49%;
+}
+
